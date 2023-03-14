@@ -3,7 +3,7 @@ import Webdev from "./WebDevProj";
 const Projects = () =>{
     return (
         <>
-        <h2>My Projects</h2>
+        <h2 className="proj-title">My Projects</h2>
         <Webdev />
         </>
     )

@@ -429,6 +429,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transform: scale(1.05);
 }
 
+/* Projects */
+
+.proj-title {
+	font-size: 40px;
+	font-weight: 700;
+  margin-top: 30px;
+}
+
+.webdev-div {
+  padding: 50px 80px;
+}
+
+.webdev-div h4 {
+	font-size: 30px;
+	font-weight: 500;
+  text-align: left;
+}
 
 .App {
   text-align: center;
