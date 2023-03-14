@@ -2,6 +2,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import web_dev_skill from '../assets/img/web_dev.png'
+import Webdev from "./WebDev";
+import data_science from '../assets/img/datascience.png'
+import add_img from '../assets/img/add_img.jpg'
 
 const Skills = () =>{
     const responsive = {
@@ -34,11 +37,17 @@ const Skills = () =>{
                       </h2>
                       <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className="item">
-                          <img src={web_dev_skill} alt=""/>
+                          <a href={<Webdev />}><img src={web_dev_skill} alt=""/></a>
                           <h5>Web Development</h5>
                         </div>
                         <div className="item">
-                          {/* <img src={} alt=""/> */}
+                          <a href="#"><img src={data_science} alt=""/></a>
+                          <h5>Data Science</h5>
+                        </div>
+                        <div className="item">
+                          <a href="#"><img src={add_img} alt=""/></a>
+                          <h5>More to be added...</h5> 
+              
                         </div>
                       </Carousel>
                     </div>
