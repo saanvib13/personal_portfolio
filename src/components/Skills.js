@@ -72,6 +72,9 @@ const Skills = () => {
                           <img src={web_dev_skill} alt=""/>
                           <div className="skill-desc">
                           <h5>Web Development</h5>
+                          <span style={{color:"#B8B8B8"}}>(Front-End: Intermediate)</span> <br/>
+                          <span style={{color:"#B8B8B8"}}>(Back-End: Basic)</span>
+
                           <p>Interned at:</p>
                           <ul>
                             <li>Exposys Data Labs</li>
