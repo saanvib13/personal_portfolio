@@ -83,6 +83,19 @@ const Skills = () => {
                         </div>
                     </Row>
                   </Tab.Pane>
+                  <Tab.Pane eventKey="second">
+                    <Row className="skill-slider">
+                    <div className="item">
+                          <img src={data_science} alt=""/>
+                          <div className="skill-desc">
+                          <h5>Data Science</h5>
+                          <p>Attended summer training in data science with python</p>
+                          <p>Certificate Link:</p>
+                          <a></a>
+                          </div>
+                        </div>
+                    </Row>
+                  </Tab.Pane>
                 </Tab.Content>
               </Tab.Container>
             </div>
