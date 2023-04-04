@@ -353,12 +353,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transform: scaleX(1);
 }
 
-.banner button svg {
+/* .banner button svg {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
-}
+} */
 .banner button:hover svg {
   margin-left: 20px;
 }
@@ -438,6 +438,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .skill-slider .item img:hover{
   transform: scale(1.04);
+}
+.skill-slider .item .certi-link button{
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  border: 1px solid white;
+  padding: 12px;
+  background: linear-gradient( 90.21deg, rgba(224, 51, 155, 0.5) -5.91%, rgba(102, 78, 207, 0.5) 111.58%);
 }
 @media only screen and (max-width: 1200px) {
   .skill-div{

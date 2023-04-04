@@ -92,9 +92,10 @@ const Skills = () => {
                           <img src={data_science} alt=""/>
                           <div className="skill-desc">
                           <h5>Data Science</h5>
-                          <p>Attended summer training in data science with python</p>
+                          <p>Attended summer training in data science with python<br/>Created a music recommendation website: Surr-Taal as a project</p>
                           <p>Certificate Link:</p>
-                          <a href="https://drive.google.com/file/d/1Js_hZRZbVbXMvfDbM8l_bZUAFW_Fjr_6/view?usp=sharing">Click Here to View</a>
+                          <a className="certi-link" href="https://drive.google.com/file/d/1Js_hZRZbVbXMvfDbM8l_bZUAFW_Fjr_6/view?usp=sharing"><button>Click Here to View</button></a>
+                          
                           </div>
                         </div>
                     </Row>
