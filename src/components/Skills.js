@@ -94,7 +94,7 @@ const Skills = () => {
                           <h5>Data Science</h5>
                           <p>Attended summer training in data science with python</p>
                           <p>Certificate Link:</p>
-                          <a></a>
+                          <a href="https://drive.google.com/file/d/1Js_hZRZbVbXMvfDbM8l_bZUAFW_Fjr_6/view?usp=sharing">Click Here to View</a>
                           </div>
                         </div>
                     </Row>
