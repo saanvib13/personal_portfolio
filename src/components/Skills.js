@@ -51,16 +51,16 @@ const Skills = () => {
                           <h5>More to be added...</h5> 
                         </div>
                       </Carousel> */}
-              <Tab.Container id="project-tab"  defaultActiveKey="first">
-                <Nav variant="pills" defaultActiveKey="first">
+              <Tab.Container id="project-tab" defaultActiveKey="first">
+                <Nav variant="pills" className="nav-pills" defaultActiveKey="first">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">Tab One</Nav.Link>
+                    <Nav.Link className="tabs" eventKey="first">Tab One</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                    <Nav.Link className="tabs" eventKey="second">Tab Two</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">
+                    <Nav.Link className="tabs" eventKey="third">
                       Tab Three
                     </Nav.Link>
                   </Nav.Item>
@@ -68,12 +68,12 @@ const Skills = () => {
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
                     <Row className="skill-slider">
-                    <div className="item">
-                          <img src={web_dev_skill} alt=""/>
-                          <div className="skill-desc">
+                      <div className="item">
+                        <img src={web_dev_skill} alt="" />
+                        <div className="skill-desc">
                           <h5>Web Development</h5>
-                          <span style={{color:"#B8B8B8"}}>(Front-End: Intermediate</span> <br/>
-                          <span style={{color:"#B8B8B8"}}>Back-End: Basic)</span>
+                          <span style={{ color: "#B8B8B8" }}>(Front-End: Intermediate</span> <br />
+                          <span style={{ color: "#B8B8B8" }}>Back-End: Basic)</span>
 
                           <p>Interned at:</p>
                           <ul>
@@ -82,22 +82,32 @@ const Skills = () => {
                             <li>The Sparks Foundation</li>
                             <li>Currently, a member of Google Developers Student Club, MSIT</li>
                           </ul>
-                          </div>
                         </div>
+                      </div>
                     </Row>
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
                     <Row className="skill-slider">
-                    <div className="item">
-                          <img src={data_science} alt=""/>
-                          <div className="skill-desc">
+                      <div className="item">
+                        <img src={data_science} alt="" />
+                        <div className="skill-desc">
                           <h5>Data Science</h5>
-                          <p>Attended summer training in data science with python<br/>Created a music recommendation website: Surr-Taal as a project</p>
+                          <p>Attended summer training in data science with python<br />Created a music recommendation website: Surr-Taal as a project</p>
                           <p>Certificate Link:</p>
-                          <a className="certi-link" href="https://drive.google.com/file/d/1Js_hZRZbVbXMvfDbM8l_bZUAFW_Fjr_6/view?usp=sharing"><button>Click Here to View</button></a>
-                          
-                          </div>
+                          <a className="certi-link" href="https://drive.google.com/file/d/1Js_hZRZbVbXMvfDbM8l_bZUAFW_Fjr_6/view?usp=sharing" target="blank"><button>Click Here to View</button></a>
+
                         </div>
+                      </div>
+                    </Row>
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="third">
+                    <Row className="skill-slider">
+                      <div className="item addImage">
+                        <img src={add_img} alt=""/> <br/>
+                        <div className="skill-desc">
+                          <h5>More to be added....</h5>
+                        </div>
+                      </div>
                     </Row>
                   </Tab.Pane>
                 </Tab.Content>

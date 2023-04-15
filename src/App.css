@@ -447,6 +447,36 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 12px;
   background: linear-gradient( 90.21deg, rgba(224, 51, 155, 0.5) -5.91%, rgba(102, 78, 207, 0.5) 111.58%);
 }
+
+.nav-pills{
+  border: 1px solid white;
+  width: 75%;
+  margin: 3% auto;
+}
+.nav-pills .nav-item{
+  width: 33%;
+}
+.nav-pills .tabs{
+  width: 103%;
+  padding: 12px;
+  font-size: 1.2rem;
+  color: white;
+  
+}
+
+
+.nav-pills .nav-link.active{
+  background-color: rgb(173, 93, 227) !important; 
+}
+
+.addImage img{
+  width: 180px !important;
+}
+.addImage .skill-desc{
+  position: relative !important;
+  right: 4% !important;
+}
+
 @media only screen and (max-width: 1200px) {
   .skill-div{
     padding: 40px 30px 80px;
